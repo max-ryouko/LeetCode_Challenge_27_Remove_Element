@@ -68,11 +68,11 @@ public:
         int counter = 0;
 
         // ITERATE THROUGH VECTOR AND SIFT OUT ELEMS THAT MATCH VAL
-        for (std::vector<int>::iterator i = nums.begin(); i != nums.end();) {
-            if (*i == val) {
-                nums.erase(i);
+        for (int num : nums) {
+            if (num != val) {
+                nums[counter] = num;
                 ++counter;
-            } else ++i;
+            }
         }
         return counter;
     }
