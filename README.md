@@ -2,6 +2,8 @@
 
 READ ME:
 This is a TEST project to learn GIT and GITHUB.  This is my first commit using a LeetCode problem as sample code to push and commit.  
+The initial solution IS WRONG as it manipulates the length of the array/vector.  This was done to practice updating the repo on GITHUB 
+as well with the local GIT repo.  The final product will contain a correct solution that will work in Leet Code.
 
 -> LeetCode 27 Remove Element is a challenge written in C++.  LeetCode uses a class 'Solution' to contain the solution to the challenge.
 -> 'main.cpp' is the driver / test unit testing the solution in 'solution.h'.
